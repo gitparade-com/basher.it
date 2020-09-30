@@ -14,7 +14,7 @@ permalink: /
 ## Packages
 
 <ul class="section-index">
-    {% for post in site.docs  %}        
+    {% for post in site.package  %}        
     <li>
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>: 
    {{ post.description }}

@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Documentation
+title: Packages
 permalink: /docs/
 ---
 
 # Packages
 
+that can be installed with basher
+
 <div class="section-index">
     <hr class="panel-line">
     {% for post in site.docs  %}        
     <div class="entry">
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
-    <p>{{ post.description }}</p>
+    <b><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>: {{ post.description }}
     </div>{% endfor %}
 </div>

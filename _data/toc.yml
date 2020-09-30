@@ -1,7 +1,8 @@
 - title: Packages
-  url: docs
-  links:
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+  url: package
+
+- title: "About"
+  url: "about"
+  
+- title: "News"
+  url: "news"

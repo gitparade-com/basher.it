@@ -1,10 +1,13 @@
 ---
 layout: default
 ---
-<h1>{{ title }}</h1>
+<h1>{{ page.title }}</h1>
 
 {% include basher_install.html %}
 {{ content }}
 {% include toc.html %}
 {% include permalinks.html %}
 {% include tags.html %}
+<p>
+	<i class="fab fa-github"></i> <a href="{{page.repo}}">{{page.repo}}</a>
+</p>

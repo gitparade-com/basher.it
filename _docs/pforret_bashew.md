@@ -5,7 +5,7 @@ description: bash script creator
 repo: https://github.com/pforret/bashew
 tags:
 - bash
-- script
+- scripting
 ---
 bash script creator - from small stand-alone script to complex projects with CI/CD and testing
 
