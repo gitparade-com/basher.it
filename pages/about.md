@@ -2,14 +2,10 @@
 title: About
 permalink: /about/
 ---
+[basher](https://github.com/basherpm/basher) is one of the best package managers for the bash langauge.
+It works a bit like composer for PHP or npm for Node. But it only does the installingm it doesn't provide a directory of packages that can be installed with it. 
+This is partly because it is clever enough to figure out what to do once it clones a repo, which scripts should be mage globally available.
 
-# About
+Still, I thought it would be cool to also have a list of certified-works-with-basher repos. This is it. It is far from complete, but it gives you an idea of what kind of bash tools exist.
 
-This is a [starter template](https://vsoch.github.com/docsy-jekyll/) for a Docsy jekyll theme, based
-on the Beautiful [Docsy](https://github.com/google/docsy) that renders with Hugo. This version is intended for
-native deployment on GitHub pages. See the [respository]({{ site.repo }}) for more details.
-
-## Support
-
-If you need help, please don't hesitate to [open an issue](https://www.github.com/{{ site.github_repo }}/{{ site.github_user }}).
-
+If you're interested in the magnificence that is advanced bash scripting, also check [Awesome Shell](https://github.com/alebcay/awesome-shell)
