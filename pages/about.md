@@ -8,4 +8,8 @@ This is partly because it is clever enough to figure out what to do once it clon
 
 Still, I thought it would be cool to also have a list of certified-works-with-basher repos. This is it. It is far from complete, but it gives you an idea of what kind of bash tools exist.
 
+If you've debeloped a script that also can be installed with basher, feel free to add the shield [![](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/) to your repo and link back to this site.
+
+    [![](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/)
+
 If you're interested in the magnificence that is advanced bash scripting, also check [Awesome Shell](https://github.com/alebcay/awesome-shell)
