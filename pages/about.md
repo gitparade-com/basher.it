@@ -2,13 +2,15 @@
 title: About
 permalink: /about/
 ---
-[basher](https://github.com/basherpm/basher) is one of the best package managers for the bash langauge.
-It works a bit like composer for PHP or npm for Node. But it only does the installingm it doesn't provide a directory of packages that can be installed with it. 
+[basher](https://github.com/basherpm/basher) is one of the best package managers for the bash language.
+It works a bit like `composer` for PHP or `npm` for Node. But it only does the installing, it doesn't provide a directory of packages that can be installed with it. 
 This is partly because it is clever enough to figure out what to do once it clones a repo, which scripts should be mage globally available.
 
-Still, I thought it would be cool to also have a list of certified-works-with-basher repos. This is it. It is far from complete, but it gives you an idea of what kind of bash tools exist.
+Still, I thought it would be cool to also have a list of certified `basher-install` repos. This is it. It is far from complete, but it gives you an idea of what kind of bash tools exist.
 
-If you've debeloped a script that also can be installed with basher, feel free to add the shield [![](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/) to your repo and link back to this site.
+All these tools are just 1 `bash install <username>/<repo>` away from working on your machine!
+
+If you've also developed a script that also can be installed with basher, feel free to add the shield [![](https://basher-packages.forret.com/assets/img/shield.svg)](https://basher-packages.forret.com/package/) to your repo and link back to this site.
 
     [![](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/)
 
