@@ -8,9 +8,13 @@ permalink: /package/
 
 <div class="section-index">
     <hr class="panel-line">
+    <ul>
     {% for post in site.package  %}        
-    <div class="entry">
-    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
-    <p>{{ post.description }}</p>
-    </div>{% endfor %}
+    <li class="entry">
+    <b><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b>:
+    {{ post.description }}
+     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.title }}">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/{{ post.title }}">
+   </li>{% endfor %}
+    </ul>
 </div>
