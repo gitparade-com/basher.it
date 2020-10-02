@@ -1,3 +1,7 @@
 vendor
 _site
 Gemfile.lock
+.DS_Store
+.idea
+.tmp
+log

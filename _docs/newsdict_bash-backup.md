@@ -8,4 +8,6 @@ tags:
 ---
 
 
+A simple backup shell script by bash 'v4.*'.
 
+File, database backup to S3
