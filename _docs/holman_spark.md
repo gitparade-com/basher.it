@@ -8,5 +8,11 @@ tags:
 - ui
 ---
 
-A horizontal ruler for your terminal
+sparklines for your shell
+See? Here's a graph of your productivity gains after using spark: ▁▂▃▅▇
+
+## Usage
+
+    spark 0 30 55 80 33 150
+    ▁▂▃▅▂▇
 

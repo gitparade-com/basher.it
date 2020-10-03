@@ -10,3 +10,12 @@ tags:
 
 A horizontal ruler for your terminal
 
+## Usage
+
+    $ hr
+    ################################## # Till the end of your terminal window
+    
+    
+    $ hr '*'
+    ********************************** # Till the end of your terminal window
+    
