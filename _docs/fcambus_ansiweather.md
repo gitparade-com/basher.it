@@ -10,4 +10,5 @@ tags:
 ---
 AnsiWeather is a Shell script for displaying the current weather conditions in your terminal, with support for ANSI colors and Unicode symbols.
 
+Weather data comes from the OpenWeatherMap free weather API.
 

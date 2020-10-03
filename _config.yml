@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "http://basher-packages.forret.com/"
+url: "https://basher-packages.forret.com/"
 
 
 
@@ -52,9 +52,6 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
 collections:
-  docs:
-    output: true
-    permalink: /:collection/:path
   package:
     output: true
     permalink: /:collection/:path

@@ -7,7 +7,7 @@ tags:
 - filesystem
 ---
 
-* It's Fucking Fast 🚀
+* It's Fu**ing Fast
 * Minimal (only requires bash and coreutils)
 * Smooth Scrolling (using vim keybindings)
 * Works on Linux, BSD, macOS, Haiku etc.

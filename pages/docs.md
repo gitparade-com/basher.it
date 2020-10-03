@@ -2,6 +2,7 @@
 layout: page
 title: Packages
 permalink: /docs/
+excluded_in_search: true
 ---
 
 # Packages
