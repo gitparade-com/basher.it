@@ -12,12 +12,14 @@ But it only does the installing, there is no directory of packages that can be i
 
 So this is exactly that, a repository of `basher install` compatible bash packages.
 
-## `basher install` ready?
+## `basher install` compatible?
 
 Typically, this means
 * there are 1 or more executable bash scripts in either the root or the `bin/` folder of the repo
-* the program can run on the command line, it's not meant to be sourced in another script
-* the program is self-contained (all the code is in 1 file) or it can find its dependent libraries even if the main script is a symbolic link to the actual program. (`source $(dirname "$0")/helpers.sh` will not work)
+* most often, this will mean that the whole script was written in bash, altough in theory it's possible that some chunks were written in Python/Perl/Ruby/Go/...
+* the script(s) can run on the command line, they're not meant to be sourced in another script
+* there is no special action to do upon installation (like adding commands to `.zshrc`/`.bashrc` startup scripts)
+* the program is self-contained (all the code is in 1 file) or it can find its dependent libraries even if the main script is a symbolic link to the actual program, since this is how basher works. (`source $(dirname "$0")/helpers.sh` will not work)
 
 ## `basher install` shield 
 
