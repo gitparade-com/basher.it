@@ -3,12 +3,14 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 {% include github_shields.html %}
-
+<h2>Install with <code>basher</code></h2>
 {% include basher_install.html %}
+<h2>Description</h2>
 {{ content }}
 {% include toc.html %}
 {% include permalinks.html %}
 {% include tags.html %}
+<hr>
 <p>
 	<i class="fab fa-github"></i> <a href="{{page.repo}}">{{page.repo}}</a>
 </p>

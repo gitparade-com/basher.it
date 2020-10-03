@@ -1,8 +1,5 @@
-- title: Packages
-  url: package
-
-- title: "About"
-  url: "about"
-  
-- title: "News"
-  url: "news"
+# left side navigation
+- title: "Basher Packages"
+  url: "package"
+- title: <img src='/assets/img/bash_prompt_100.jpg'>
+  url: "package"

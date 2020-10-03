@@ -62,20 +62,18 @@ defaults:
       path: "_package"
       type: "package"
     values:
-      layout: page
+      layout: package
   - scope:
       path: "_docs"
       type: "docs"
     values:
       layout: page
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: "posts"
       type: "posts"
     values:

@@ -6,6 +6,5 @@ repo: https://github.com/lordvlad/clock
 tags:
 - timesheets
 ---
-
-
+Track your working hours on the command line
 

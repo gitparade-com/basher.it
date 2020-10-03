@@ -1,4 +1,9 @@
-- title: About
-  url: about
-- title: Packages
+# top navigation
+- title: <i class="fas fa-cube"></i> <b>Packages</b>
   url: package
+- title: <i class="fas fa-tags"></i> Tags
+  url: tags
+- title: <i class="fas fa-rss"></i> Blog
+  url: news
+- title: <i class="fas fa-info-circle"></i> About
+  url: about
