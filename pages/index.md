@@ -14,4 +14,6 @@ permalink: /
 
 ## Packages
 
+[List of `basher install` compatible packages.](/package)
+
 {% include search_form.html %}
