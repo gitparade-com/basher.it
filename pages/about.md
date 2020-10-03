@@ -12,12 +12,17 @@ But it only does the installing, there is no directory of packages that can be i
 
 So this is exactly that, a repository of `basher install` compatible bash packages.
 
+## `basher install` ready?
 
+Typically, this means
+* there are 1 or more executable bash scripts in either the root or the `bin/` folder of the repo
+* the program can run on the command line, it's not meant to be sourced in another script
+* the program is self-contained (all the code is in 1 file) or it can find its dependent libraries even if the main script is a symbolic link to the actual program. (`source $(dirname "$0")/helpers.sh` will not work)
 ## Shield 
 
 If you've also developed a script that also can be installed with basher, feel free to add the `basher install` shield to your repo and link back to this site.
 
-[![](https://basher-packages.forret.com/assets/img/shield.svg)](https://basher-packages.forret.com/package/) 
+[![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/)
 
 This is the markdown you need:
 
