@@ -25,12 +25,12 @@ Typically, this means
 
 If you've also developed a script that can be installed with `basher install`, feel free to add this shield to your repo and link back to this site.
 
-[![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/)
+[![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)]({{site.url}}/package/)
 
 This is the markdown you need:
 
 ``` markdown
-[![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)](https://basher-packages.forret.com/package/)
+[![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)]({{site.url}}/package/)
 ```
 
 ## Bash
