@@ -6,14 +6,11 @@ permalink: /
 
 # Find, install, and publish bash scripts with basher
 
-![](assets/img/logo.jpg)
+![](assets/img/basher.jpg)
 
-## Purpose
-
-* this is a (non-exhaustive) list of [bash](https://github.com/topics/bash)-based packages/tools that can be installed with [basher](https://github.com/basherpm/basher)
-
-## Packages
-
-[List of `basher install` compatible packages.](/package)
-
+## A directory of bash/sh/zsh tools/scripts that can be installed with [basherpm/basher](https://github.com/basherpm/basher)
 {% include search_form.html %}
+{% for post in site.package  %} [{{ post.title }}]({{ post.url }}), {% endfor %}
+
+{{site.package.count}}
+

@@ -18,4 +18,4 @@ to push new changes to Github/Bitbucket
 
 to bump the version
 
-    setver new minor
+    setve new minor
