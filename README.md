@@ -1,5 +1,7 @@
 # basher packages
 
+![](assets/img/basher.jpg)
+
 [basher]() is one of the best package managers for the bash langauge. It works a bit like composer for PHP or npm for Node. 
 
 But it only does the installing, it doesn’t provide a directory of packages that can be installed with it. This is partly because it is clever enough to figure out what to do once it clones a repo, which scripts should be made globally available.
