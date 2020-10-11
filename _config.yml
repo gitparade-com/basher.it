@@ -24,7 +24,7 @@ twitter: pforret
 feedback: false
 
 # Link to a privacy policy in footer, uncomment and define if wanted
-privacy: https://basher.gitparade.com/privacy
+privacy: /privacy
 
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
@@ -63,11 +63,6 @@ defaults:
       type: "package"
     values:
       layout: package
-  - scope:
-      path: "_docs"
-      type: "docs"
-    values:
-      layout: page
   - scope:
       path: ""
       type: "pages"
