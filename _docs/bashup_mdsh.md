@@ -1,7 +1,7 @@
 ---
 layout: package
 title: bashup/mdsh
-description: A simple backup shell script
+description: bash script compiler and interpreter for markdown files
 repo: https://github.com/bashup/mdsh
 tags:
 - markdown
