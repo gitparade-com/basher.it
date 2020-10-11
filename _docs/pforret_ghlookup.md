@@ -5,6 +5,7 @@ description: Get info on Github repositories via API
 repo: https://github.com/pforret/ghlookup
 tags:
 - github
+- api
 ---
 
 Lookup Github info via API in bash

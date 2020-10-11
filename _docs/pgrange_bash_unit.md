@@ -5,8 +5,8 @@ description: bash unit testing enterprise edition framework
 repo: https://github.com/pgrange/bash_unit
 tags:
 - bash
-- shell-script
-- package
+- testing
+- unit
 ---
  
 Semantic Versioning helper script  -- get/set package version from git tags (Github/Bitbucket), composer.json (PHP), package.json (npm)

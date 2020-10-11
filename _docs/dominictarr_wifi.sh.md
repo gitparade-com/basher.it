@@ -7,6 +7,18 @@ tags:
 - wifi
 - network
 ---
+bash script to connect to wifi (on linux)
 
-markdown.bash is a Markdown interpreter using only traditional Unix tools. Specifically, it only uses Bash, Sed, Grep, and Cut (in one small instance).
+## Usage
 
+	#list currently available wifi networks.
+	sudo wifi.sh scan
+
+	#connect to best network
+	sudo wifi.sh connect
+
+	#add a network to file.
+	sudo wifi.sh add SSID passphrase
+
+	# show your mac address
+	sudo wifi.sh mac

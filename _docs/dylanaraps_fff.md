@@ -7,7 +7,6 @@ tags:
 - filesystem
 ---
 
-* It's Fu**ing Fast
 * Minimal (only requires bash and coreutils)
 * Smooth Scrolling (using vim keybindings)
 * Works on Linux, BSD, macOS, Haiku etc.
@@ -19,3 +18,21 @@ tags:
 * Works as a file picker in vim/neovim (link)!
 * Display images with w3m-img!
 * Supports $CDPATH.
+
+
+## Usage
+
+	j: scroll down
+	k: scroll up
+	h: go to parent dir
+	l: go to child dir
+
+	enter: go to child dir
+	backspace: go to parent dir
+
+	-: Go to previous dir.
+
+	g: go to top
+	G: go to bottom
+
+	:: go to a directory by typing.
