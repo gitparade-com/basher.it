@@ -1,7 +1,7 @@
 ---
 layout: package
 title: sdushantha/tmpmail
-description: A temporary email right from your terminal written in POSIX sh
+description: A temporary email right from your terminal 
 repo: https://github.com/sdushantha/tmpmail
 tags:
 - email
