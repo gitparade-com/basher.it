@@ -45,10 +45,10 @@ main() {
       echo "description: $(ghlookup repo "$ident" .description)"
       echo "repo: https://github.com/$ident"
       echo "tags:"
-      ghlookup topics pforret/setver @ | awk '{print "- " $1}'
+      ghlookup topics "$ident" @ | awk '{print "- " $1}'
       echo "---"
       echo " "
-      ghlookup repo pforret/setver @
+      ghlookup repo "$ident" @
       echo " "
       echo "## Usage"
       echo " "
