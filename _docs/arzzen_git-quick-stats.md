@@ -1,13 +1,11 @@
 ---
 layout: package
 title: arzzen/git-quick-stats
-description: ▁▅▆▃▅ Git quick statistics is a simple and efficient way to access various statistics in git repository.
+description: simple and efficient way to access various statistics in git repository.
 repo: https://github.com/arzzen/git-quick-stats
 tags:
 - git
 - statistics
-- stats
-- git-addons
 ---
  
 git-quick-stats is a simple and efficient way to access various statistics in a git repository.

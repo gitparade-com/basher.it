@@ -1,7 +1,7 @@
 ---
 layout: package
 title: arzzen/pert
-description: CLI utility to estimate tasks using PERT [Program Evaluation and Review Technique]
+description: CLI utility to estimate tasks using PERT
 repo: https://github.com/arzzen/pert
 tags:
 - pert
