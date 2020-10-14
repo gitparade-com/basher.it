@@ -4,7 +4,6 @@ title: pforret/bashew
 description: bash script creator
 repo: https://github.com/pforret/bashew
 tags:
-- bash
 - scripting
 - template
 ---

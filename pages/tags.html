@@ -2,30 +2,20 @@
 title: Tag Index
 permalink: /tags/
 excluded_in_search: true
+layout: default
 ---
 
 <h1 id="tags-index">Tags Index</h1>
-{% capture site_tags %}
-    {% for tag in site.tags %}
-        {% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}
-    {% endfor %}
-{% endcapture %}
+{% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}
 {% assign docs_tags = "" %}
-{% for doc in site.package %}
-    {% assign ttags = doc.tags | join:',' | append:',' %}{% assign docs_tags = docs_tags | append:ttags %}
-{% endfor %}
+{% for doc in site.package %}{% assign ttags = doc.tags | join:',' | append:',' %}{% assign docs_tags = docs_tags | append:ttags %}{% endfor %}
 {% assign all_tags = site_tags | append:docs_tags %}
-{% assign tags_list = all_tags | split:',' | uniq | sort %}
-
+{% assign tags_list = docs_tags | split:',' | uniq | sort %}
+<ul>
 {% for tag in tags_list %}{% if tag %}
-    <h3 id="{{ tag | replace: '/', '-' }}" class="linked-section">{{ tag }}</h3>
-<div class="post-list" style="margin-bottom:40px">
-    {% for post in site.tags[tag] %}<div class="tag-entry">
-    <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
-</div>{%- endfor -%}
-{% for doc in site.package %}{% if doc.tags contains tag %}
-<div class="tag-entry">
-    <a href="{{- site.baseurl -}}{{- doc.url -}}">{{ doc.title }}</a>
-    </div>{% endif %}{% endfor %}
-</div>{% endif %}
-{%- endfor -%}
+	<li>
+	<strong id="{{ tag | replace: '/', '-' }}" class="linked-section">{{ tag }}</strong>: 
+	{% for doc in site.package %} {% if doc.tags contains tag %} 
+		<span class="tag-entry"><a href="{{site.baseurl}}{{doc.url}}">{{ doc.title }}</a></span> &bull; {% endif %} {% endfor %}
+</li>{% endif %}{% endfor %}
+</ul>

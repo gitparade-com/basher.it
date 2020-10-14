@@ -10,7 +10,17 @@
           <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
           {% include sidebar.html %}
           </div>
-          <main class="col-12 col-md-9 col-xl-10 pl-md-5" role="main">
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+              <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+                  {% include editable.html %}
+              </div>
+              <nav id="TableOfContents"><ul>
+              <li><ul id="TOC">
+                <!-- Links will be appended here-->
+              </ul></li>
+              </ul></nav>
+          </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
             <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
 	      <ol class="breadcrumb spb-1">
               {% assign crumbs = page.url | append: "/"  | replace: '//', '/' | split: '/' %}
@@ -35,6 +45,7 @@
                     <p>{{ child.description }}</p>
                  </div>{% endfor %}
               </div>{% endif %}
+              {% include feedback.html %}
            </div>
           </main>
         </div>

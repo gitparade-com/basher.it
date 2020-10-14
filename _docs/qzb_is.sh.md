@@ -4,8 +4,7 @@ title: qzb/is.sh
 description: Human readable conditions for bash
 repo: https://github.com/qzb/is.sh
 tags:
-- bash
-- shell
+- scripting
 - test
 ---
 

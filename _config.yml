@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "" # the subpath of your site, e.g. /blog
-
 # This is mostly for testing
 url: "https://basher.gitparade.com"
 
@@ -36,7 +35,7 @@ color: "#30638e"
 
 # Build settings
 markdown: kramdown
-
+highlighter: rouge
 # If you add tags to pages, define this variable to link them to some external search
 # If you want to link to tags locally on the site, leave this commented out
 # tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=

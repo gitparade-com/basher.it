@@ -4,7 +4,6 @@ title: pgrange/bash_unit
 description: bash unit testing enterprise edition framework 
 repo: https://github.com/pgrange/bash_unit
 tags:
-- bash
 - testing
 - unit
 ---
