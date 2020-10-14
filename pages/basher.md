@@ -5,7 +5,7 @@ permalink: /basher/
 
 # How to install Basher
 
-Before you can use `basher install` to install any of the many packages listed [/](here), you will need to install basher.
+Before you can use `basher install` to install any of the many [packages listed here](/), you will need to install basher.
 This page describes how to do that!
 
 ## Installation
