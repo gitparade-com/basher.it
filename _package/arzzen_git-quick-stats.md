@@ -1,7 +1,7 @@
 ---
 layout: package
 title: arzzen/git-quick-stats
-description: simple and efficient way to access various statistics in git repository.
+description: simple and efficient way to access various git statistics
 repo: https://github.com/arzzen/git-quick-stats
 tags:
 - git
