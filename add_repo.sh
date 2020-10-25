@@ -14,7 +14,7 @@ flag|v|verbose|output more
 flag|f|force|do not ask for confirmation (always yes)
 option|l|log_dir|folder for log files |log
 option|t|tmp_dir|folder for temp files|.tmp
-option|o|outdir|output folder|_docs
+option|o|outdir|output folder|_package
 param|1|action|action to perform (repo/user)
 param|1|ident|identifier name (<user>/<name>)
 " | grep -v '^#'
