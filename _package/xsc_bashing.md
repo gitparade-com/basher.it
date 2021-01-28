@@ -6,6 +6,6 @@ repo: https://github.com/xsc/bashing
 tags:
 - scripting
 ---
-bashing is a small tool that let's you create single-file Bash tools in a multi-file way.
+bashing is a small tool that lets you create single-file Bash tools in a multi-file way.
 
 
