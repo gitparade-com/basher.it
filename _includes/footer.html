@@ -1,19 +1,21 @@
 <footer class="bg-dark py-5 row d-print-none">
   <div class="container-fluid mx-sm-5">
     <div class="row">
-<div class="col-12 col-sm-12 text-center py-2 order-sm-2">
-  <small class="text-white">© 2020 {{ site.author }} All Rights Reserved</small>
-  {% if site.privacy %}<small class="ml-1"><a href="{{ site.privacy }}" target="_blank">Privacy Policy</a></small>{% endif %}
-  <p class="mt-2">
-    <a class="text-white" target="_blank" href="/about/">
-      <i class="fas fa-info-circle"></i> About {{ site.title }} &bull;
-    </a>
-    <a class="text-white" target="_blank" href="https://github.com/gitparade-com/basher.it">
-      <i class="fab fa-github-square"></i> gitparade-com/basher.it &bull;
-    </a>
-  </p>
-
-</div>
+        <div class="col-12 col-sm-12 text-center py-2 order-sm-2">
+            <span class="text-white">
+              <i class="fas fa-copyright"></i> 2021
+              <a class="text-white" target="_blank" href="https://github.com/juanibiapina">Juan Ibiapina</a> &
+              <a class="text-white" target="_blank" href="https://github.com/pforret">Peter Forret</a>
+              &bull;
+            </span>
+            <a class="text-white" href="/about/">
+              <i class="fas fa-info-circle"></i> About {{ site.title }} &bull;
+            </a>
+            <a class="text-white" target="_blank" href="https://github.com/gitparade-com/basher.it">
+              <i class="fab fa-github-square"></i> gitparade-com/basher.it &bull;
+            </a>
+            {% if site.privacy %}<a href="{{ site.privacy }}" class="text-white"><i class="fa fa-gavel" aria-hidden="true"></i> Privacy Policy</a>{% endif %}
+        </div>
     </div>
   </div>
 </footer>

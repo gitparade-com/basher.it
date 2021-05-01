@@ -72,3 +72,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: "page"

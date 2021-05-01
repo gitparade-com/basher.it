@@ -2,8 +2,11 @@
 layout: page
 title: "Bash package manager"
 permalink: /
+nav: false
 ---
 ## basher.it package manager
+
+![](/assets/logo/logo.jpg)
 
 `basher` helps you quickly install/uninstall/update bash packages, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 

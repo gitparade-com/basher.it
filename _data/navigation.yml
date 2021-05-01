@@ -1,9 +1,9 @@
 # top navigation
-- title: <i class="fas fa-cube"></i> <b>Packages</b>
+- title: <i class="fas fa-cube" aria-hidden="true"></i> <b>Packages</b>
   url: package
-- title: <i class="fas fa-tags"></i> Tags
-  url: tags
-- title: <i class="fas fa-rss"></i> Blog
+- title: <i class="fa fa-book" aria-hidden="true"></i> Documentation
+  url: documentation
+- title: <i class="fas fa-rss" aria-hidden="true"></i> News
   url: news
-- title: <i class="fas fa-info-circle"></i> About
+- title: <i class="fas fa-info-circle" aria-hidden="true"></i> About
   url: about

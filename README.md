@@ -3,9 +3,7 @@ Part of [![part of Bashful Scripting network](https://img.shields.io/badge/bashf
 
 # basher packages
 
-![](assets/img/basher.jpg)
-
-[basher]() is one of the best package managers for the bash langauge. It works a bit like composer for PHP or npm for Node. 
+[basher](https://www.basher.it) is one of the best package managers for the bash scripting language. It works a bit like composer for PHP or npm for Node. 
 
 But it only does the installing, it doesn’t provide a directory of packages that can be installed with it. This is partly because it is smart.
 

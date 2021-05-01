@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Packages
+title: Package directory
 permalink: /package/
 excluded_in_search: true
+fontawesome: <i class="fa fa-cube" aria-hidden="true"></i>
 ---
 
 # Packages

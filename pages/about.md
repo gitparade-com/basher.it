@@ -1,10 +1,8 @@
 ---
 title: About
 permalink: /about/
+fontawesome: <i class="fas fa-info-circle"></i>
 ---
-## Basher Packages
-
-This is a repository of `basher install` compatible tools/scripts/packages.
 
 ## What is Basher?
 

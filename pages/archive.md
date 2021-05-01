@@ -2,6 +2,7 @@
 layout: page
 title: Articles
 permalink: /archive/
+nav: false
 ---
 # News Archive
 
