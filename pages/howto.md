@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: /about/
+title: How-To
+permalink: /howto/
 ---
 ## Basher Packages
 

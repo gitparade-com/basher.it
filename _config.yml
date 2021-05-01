@@ -1,8 +1,8 @@
-title: Basher Packages
+title: basher.it
 email: peter@forret.com
 author: Peter Forret
 description: > # this means to ignore newlines until "baseurl:"
-  List of bash tools/packages that can be installed with basher
+  install/uninstall/update bash packages
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -1,25 +1,29 @@
 ---
 layout: page
-title: Find, install, and publish bash scripts with basher packages
+title: "Bash package manager"
 permalink: /
 ---
+## basher.it package manager
 
-# Packages that can be installed with basher ![basher install](https://img.shields.io/badge/basher-install-white?logo=gnu-bash&style=flat)
+`basher` helps you quickly install/uninstall/update bash packages, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
-{% include search_form.html %}
+## easy install/uninstall of bash packages
 
-<div class="section-index">
-    <hr class="panel-line">
-    {% for post in site.package  %}        
-    <div class="row">
-    <div class="col-lg-3 col-md-8 col-sm-8 font-weight-bold" style="border-top: 1px solid #999"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-    <div class="col-lg-3 col-md-4 col-sm-4">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.title }}">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/{{ post.title }}">
+```bash
+$ basher install pforret/note
+Cloning into '$HOME/.basher/cellar/packages/pforret/note'...
+(...)
 
-    </div>
-    <div class="col-lg-6 col-md-12 col-sm-12">{{ post.description }}</div>
-   </div>{% endfor %}
-</div>
+$ note
+Program: note 1.3.1 by peter@forret.com
+Updated: May  1 18:16:22 2021
+Description: keep track of daily notes
+(...)
 
-{{site.package.count}}
+$ basher uninstall pforret/note
+
+```
+## directory of bash packages
+
+[directory of `basher install` compatible packages](/package)
+
