@@ -7,14 +7,14 @@ description: > # this means to ignore newlines until "baseurl:"
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "" # the subpath of your site, e.g. /blog
 # This is mostly for testing
-url: "https://basher.gitparade.com"
+url: "https://www.basher.it"
 
 
 
 # Social (First three Required)
-repo: "https://github.com/gitparade-com/basher-packages"
+repo: "https://github.com/gitparade-com/basher.it"
 github_user: "gitparade-com"
-github_repo: "basher-packages"
+github_repo: "basher.it"
 
 # Optional
 twitter: pforret
