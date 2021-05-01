@@ -17,6 +17,6 @@ fontawesome: <i class="fa fa-cube" aria-hidden="true"></i>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.title }}">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/{{ post.title }}">
     </div>
-    <div class="col-lg-6 col-md-12 col-sm-12">{{ post.description }}</div>
+    <div class="col-lg-6 col-md-12 col-sm-12">{{ post.description | truncatewords: 9}}</div>
    </div>{% endfor %}
 </div>
