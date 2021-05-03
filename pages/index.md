@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Bash package manager"
+image: /assets/logo/logo.jpg
 permalink: /
 nav: false
 ---
