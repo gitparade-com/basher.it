@@ -4,7 +4,7 @@ permalink: /news/
 fontawesome: "<i class='fas fa-rss'></i>"
 ---
 
-# News
+# basher news
 
 <p>Subscribe with <a href="{{ site.baseurl }}/feed.xml">RSS</a> to keep up with the latest news.
 

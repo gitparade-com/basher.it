@@ -1,17 +1,20 @@
 <header>
-        <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <span class="navbar-logo"></span><img height="50" src="/assets/img/bash_prompt_100.jpg"> <span class="text-uppercase font-weight-bold">{{ site.title }}</span>
-	</a>
-	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
-		<ul class="navbar-nav mt-2 mt-lg-0">{% for link in site.data.navigation %}
-			<li class="nav-item mr-4 mb-2 mb-lg-0">
-                            <a class="nav-link" href="{% if link.url %}{{ site.baseurl }}/{{ link.url }}{% else %}{{ link.external_url }}{% endif %}" ><span>{{ link.title }}</span></a>
-			</li>{% endfor %}
-		</ul>
-	</div>
-	<div class="navbar-nav d-none d-lg-block">
- <input type="search" class="form-control td-search-input" placeholder="&#xf002 Search this site…" aria-label="Search this site…" autocomplete="off">
-        </div>
-        </nav>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+		<a class="navbar-brand" href="/"><img width="120" src="/assets/logo/basher_install.svg"> basher.it</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-md-center" id="navbarcollapse">
+			<ul class="navbar-nav mr-auto">
+				{% assign pages_list = site.pages %}
+				{% for node in pages_list %}{% if node.title != null %}{% if node.layout == "page" %}{% if node.nav != false %}
+				<li class="nav-item">
+					<a class="nav-link{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">
+						{{node.fontawesome}} {{ node.title }} {{node.nav}}
+					</a>
+				</li>
+				{% endif %}{% endif %}{% endif %}{% endfor %}
+			</ul>
+		</div>
+	</nav>
 </header>

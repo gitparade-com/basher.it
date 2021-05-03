@@ -18575,12 +18575,12 @@ html body .md-typeset .headerlink {
 }
 
 footer {
-    min-height: 150px
+    min-height: 50px
 }
 
 @media(max-width:991.98px) {
     footer {
-        min-height: 200px
+        min-height: 50px
     }
 }
 

@@ -1,6 +1,7 @@
 ---
 title: Privacy statement
 permalink: /privacy/
+nav: false
 fontawesome: <i class="fa fa-book" aria-hidden="true"></i>
 ---
 ## Privacy Policy

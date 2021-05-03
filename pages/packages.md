@@ -6,7 +6,7 @@ excluded_in_search: true
 fontawesome: <i class="fa fa-cube" aria-hidden="true"></i>
 ---
 
-# Packages
+# ![](/assets/logo/basher_install.svg) packages
 
 <div class="section-index">
     <hr class="panel-line">
