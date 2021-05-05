@@ -1,33 +1,32 @@
 ---
 layout: page
-title: "Bash package manager"
+title: package manager for bash scripts
 image: /assets/logo/logo.jpg
 permalink: /
 nav: false
 ---
-## basher.it package manager
+
 
 ![](/assets/logo/logo.jpg)
 
-`basher` helps you quickly install/uninstall/update bash packages, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
+**basher** helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
-## easy install/uninstall of bash packages
+## Easy install of bash packages
 
-```bash
+```shell
 $ basher install pforret/note
-Cloning into '$HOME/.basher/cellar/packages/pforret/note'...
-(...)
-
-$ note
-Program: note 1.3.1 by peter@forret.com
-Updated: May  1 18:16:22 2021
-Description: keep track of daily notes
-(...)
-
-$ basher uninstall pforret/note
-
+# that's it! 
+# the bash script is installed and can be used immediately
 ```
-## directory of bash packages
 
-[directory of `basher install` compatible packages](/package)
+* Check the [documentation](/documentation) for details on how to install and use `basher`.
 
+## Directory of basher packages
+
+What bash packages can you install with basher? Basher doesn't require packages to register before they can be used. If a bash package is organised [in a logical way](/authors), basher will know how to install it. Still, here are some popular (or not) examples of packages that can be installed with basher.
+
+* [directory of {{ site.package | size }} basher compatible packages](/package)
+
+## Some background
+
+* [about the authors](/about)

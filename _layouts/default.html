@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en-us">
+
   {% include head.html %}
-  <body class="td-section">
-    {% include header.html %}
-    <div class="container-fluid td-outer">
-      <div class="td-main">
-        <div class="row flex-xl-nowrap">
-          <div class="col-12 col-md-1 col-xl-1 td-sidebar d-print-none">
-          {% include sidebar.html %}
-          </div>
-          <main class="col-12 col-md-11 col-xl-11" role="main">
-           <div class="td-content">
-	      {{ content }}	
-              {% if section.links %}<div class="section-index">
-               <hr class="panel-line">{% for child in section.links %}
-                 <div class="entry">
-                    <h5>
-                        <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
-                    </h5>
-                    <p>{{ child.description }}</p>
-                 </div>{% endfor %}
-              </div>{% endif %}
-           </div>
-          </main>
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
         </div>
       </div>
-      {% include footer.html %}
+
+      <div class="container content">
+        {{ content }}
+        {% include footer.html %}
+      </div>
     </div>
-    {% include scripts.html %}
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
+    <script src='{{ site.baseurl }}/public/js/script.js'></script>
+    {% include matomo.html %}
+
   </body>
 </html>

@@ -1,0 +1,29 @@
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.title }} &bull; {{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          {% if node.nav != false %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url  }}">{{node.fontawesome}}  {{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; {{ site.time | date: '%Y' }} - v{% include VERSION.html %}
+    </p>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-title: basher.it
+title: basher.it - bash package manager
 email: peter@forret.com
 author: Peter Forret
 description: > # this means to ignore newlines until "baseurl:"
@@ -47,7 +47,7 @@ fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
 markdown: kramdown
-exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor, lanyon, _old]
 
 # Collections
 collections:

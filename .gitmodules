@@ -1,0 +1,3 @@
+[submodule "lanyon"]
+	path = lanyon
+	url = https://github.com/poole/lanyon

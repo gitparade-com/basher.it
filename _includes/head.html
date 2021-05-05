@@ -1,32 +1,30 @@
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Jekyll - Github Pages" />
-<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-<link rel="alternate" type="application/rss&#43;xml" href="/docs/index.xml">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-<link rel="shortcut icon" href="/assets/favicons/favicon.ico" >
-<link rel="apple-touch-icon" href="/assets/favicons/apple-icon.png" sizes="180x180">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/assets/favicons/android-icon-96x96.png" sizes="96x96">
-<title>{% if page.title %}{{ page.title }} &bull; {% endif %}{{ site.title }}</title>
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.url }}" />
-<meta property="og:site_name" content="{{ site.url }}" />
-<meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
 
-<link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" href="/assets/css/palette.css">
-<script
-  src="/assets/js/jquery-3.3.1/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  {% if page.url and site.baseurl %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ '/public/css/poole.css'  }}">
+  <link rel="stylesheet" href="{{ '/public/css/syntax.css' }}">
+  <link rel="stylesheet" href="{{ '/public/css/lanyon.css' }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
+  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+
 </head>

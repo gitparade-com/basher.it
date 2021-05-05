@@ -1,7 +1,4 @@
----
-layout: null
-excluded_in_search: true
----
+
 (function () {
 	function getQueryVariable(variable) {
 		var query = window.location.search.substring(1),

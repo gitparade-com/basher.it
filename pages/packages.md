@@ -6,17 +6,7 @@ excluded_in_search: true
 fontawesome: <i class="fa fa-cube" aria-hidden="true"></i>
 ---
 
-# ![](/assets/logo/basher_install.svg) packages
+| <img src="/assets/logo/basher_install.svg" height=50 width=600 /> | This is not an exhaustive list of `basher install`-ready repo's. Basher can figure out for hundreds of packages what should be done to install them. This list is just the ones we checked or that were submitted by the authors. |
 
-<div class="section-index">
-    <hr class="panel-line">
-    {% for post in site.package  %}        
-    <div class="row">
-        <div class="col-lg-1 col-md-2 col-sm-2">
-            <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/{{ post.title }}">
-        </div>
-        <div class="col-lg-10 col-md-10 col-sm-10">
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>: {{ post.description | truncatewords: 10}}
-        </div>
-    </div>{% endfor %}
-</div>
+{% for post in site.package  %}
+| <a href="{{ post.url | prepend: site.baseurl }}"> <strong>{{ post.title }}</strong></a>: {{ post.description | truncatewords: 12}} |{% endfor %}

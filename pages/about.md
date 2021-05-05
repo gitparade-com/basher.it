@@ -1,12 +1,11 @@
 ---
-title: About
+title: About basher
 permalink: /about/
-fontawesome: <i class="fas fa-info-circle"></i>
+fontawesome: <i class="fa fa-info-circle"></i>
 ---
 
-## What is Basher?
 
-[basherpm/basher](https://github.com/basherpm/basher) is one of the best package managers for the bash scripting language.
+[basherpm/basher](https://github.com/basherpm/basher) is one of the best **package managers for the bash scripting language**.
 
 It works like `composer` for PHP or `npm` for Node: just the `basher install <user>/<package>` command will download a (bash) package from Github and put the script in your path. It can also take care of uninstalling and updating.
 

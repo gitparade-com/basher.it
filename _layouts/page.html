@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{{ content }}
-{% include toc.html %}
-{% include permalinks.html %}
-{% include tags.html %}
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>

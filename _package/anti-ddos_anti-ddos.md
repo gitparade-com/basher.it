@@ -1,7 +1,7 @@
 ---
 layout: package
 title: anti-ddos/Anti-DDOS
-description: Anti DDOS | Bash Script Project 
+description: Anti DDOS - Bash Script Project 
 repo: https://github.com/anti-ddos/Anti-DDOS
 tags:
 - config

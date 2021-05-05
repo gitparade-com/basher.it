@@ -1,7 +1,7 @@
 ---
 title: News
 permalink: /news/
-fontawesome: "<i class='fas fa-rss'></i>"
+fontawesome: "<i class='fa fa-rss'></i>"
 ---
 
 # basher news

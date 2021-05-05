@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<h1 class="page-title">{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 <p>
-	<i class="fa fa-github"></i> <a href="{{page.repo}}">{{page.repo}}</a>
+	<i class="fab fa-github"></i> <a href="{{page.repo}}">{{page.repo}}</a>
 </p>
 {% include github_shields.html %}
 <h2>Install with <code>basher</code></h2>
@@ -11,6 +11,6 @@ layout: default
 <h2>Description</h2>
 {{ content }}
 {% include toc.html %}
-{% include permalinks.html %}
+
 {% include tags.html %}
 <hr>
