@@ -6,10 +6,7 @@ permalink: /
 nav: false
 ---
 
-
-![](/assets/logo/logo.jpg)
-
-**basher** helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
+> **basher** helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
 ## Easy install of bash packages
 
@@ -23,7 +20,7 @@ $ basher install pforret/note
 
 ## Directory of basher packages
 
-What bash packages can you install with basher? Basher doesn't require packages to register before they can be used. If a bash package is organised [in a logical way](/authors), basher will know how to install it. Still, here are some popular (or not) examples of packages that can be installed with basher.
+What `bash` packages can you install with basher? Basher doesn't require packages to register before they can be used. If a `bash` package is organised [in a logical way](/authors), basher will know how to install it. Still, here are some popular (or not) examples of packages that can be installed with basher.
 
 * [directory of {{ site.package | size }} basher compatible packages](/package)
 
