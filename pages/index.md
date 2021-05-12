@@ -21,7 +21,7 @@ $ basher install pforret/note
 # the bash script is installed and can be used immediately
 ```
 
-* Check the [documentation](/documentation) for details on how to install/uninstall/update packages with `basher`.
+* Check the [usage](/usage) for details on how to install/uninstall/update packages with `basher`.
 
 ## Directory of basher packages
 
