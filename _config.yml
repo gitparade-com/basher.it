@@ -1,8 +1,8 @@
-title: basher.it - bash package manager
+title: basher
+tagline: bash package manager
 email: peter@forret.com
 author: Peter Forret
-description: > # this means to ignore newlines until "baseurl:"
-  install/uninstall/update bash packages
+description: package manager for bash projects
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -6,6 +6,11 @@ permalink: /
 nav: false
 ---
 
+**[package directory](/package)** &bull; 
+[basher usage](/documentation) &bull;
+[for authors](/authors) &bull;
+[basher news](/news)
+
 > **basher** helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
 ## Easy install of bash packages
