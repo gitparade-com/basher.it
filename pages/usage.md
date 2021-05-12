@@ -1,18 +1,25 @@
 ---
-title: Documentation
-permalink: /documentation/
+title: Basher usage
+permalink: /usage/
 fontawesome: <i class="fa fa-book" aria-hidden="true"></i>
 ---
 
-## basher usage
-
 [basherpm/basher](https://github.com/basherpm/basher) is one of the best package managers for the bash scripting language. `basher` allows you to use bash packages in the simplest way:
 ```bash
-$ basher install <author>/<package>   # install a new package and use it right away
-$ basher uninstall <author>/<package> # uninstall a package
-$ basher upgrade <author>/<package>   # update a package to the latest version
-$ basher list                         # list all installed packages
-$ basher outdated                     # list all upgradeable packages
+# install a new package and use it right away
+$ basher install <author>/<package>
+
+# uninstall a package
+$ basher uninstall <author>/<package>
+
+# update a package to the latest version
+$ basher upgrade <author>/<package>
+
+# list all installed packages
+$ basher list
+                     
+# list all upgradeable packages
+$ basher outdated
 ```
 
 ## Example

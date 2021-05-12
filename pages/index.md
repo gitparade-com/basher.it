@@ -7,11 +7,11 @@ nav: false
 ---
 
 **[package directory](/package)** &bull; 
-[basher usage](/documentation) &bull;
+[basher usage](/usage) &bull;
 [for authors](/authors) &bull;
 [basher news](/news)
 
-> **basher** helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
+> [**basher**](https://github.com/basherpm/basher) helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
 ## Easy install of bash packages
 
@@ -21,7 +21,7 @@ $ basher install pforret/note
 # the bash script is installed and can be used immediately
 ```
 
-* Check the [documentation](/documentation) for details on how to install and use `basher`.
+* Check the [documentation](/documentation) for details on how to install/uninstall/update packages with `basher`.
 
 ## Directory of basher packages
 
