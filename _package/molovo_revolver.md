@@ -4,8 +4,20 @@ title: molovo/revolver
 description: A progress spinner for ZSH scripts
 repo: https://github.com/molovo/revolver
 tags:
-- scripting
 ---
+ 
+A progress spinner for ZSH scripts
+ 
+## Usage
 
-Revolver comes with a revolver demo command which demonstrates each of the included spinner styles. Once you've found one you like, select it using the --style option.
+```bash
+revolver start 'Your awesome message'
 
+# Do something here
+
+revolver update 'A different message'
+
+# Do something else here
+
+revolver stop
+```
