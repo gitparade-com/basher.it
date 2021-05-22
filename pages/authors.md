@@ -1,7 +1,7 @@
 ---
 title: For bash authors
 permalink: /authors/
-fontawesome: <i class="fa fa-info-circle"></i>
+fontawesome: <i class="fa fa-pencil"></i>
 ---
 
 ## Is my bash package `basher install` compatible?

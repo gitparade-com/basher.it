@@ -6,6 +6,7 @@ repo: https://github.com/xzhih/one-key-hidpi
 tags:
     - macos
     - display
+    - apple
 ---
  
 Enable macOS HiDPI and have a native setting.

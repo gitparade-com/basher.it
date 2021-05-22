@@ -4,10 +4,10 @@ title: zertrin/duplicity-backup.sh
 description: Bash wrapper script for automated backups with duplicity supporting Amazon's S3 online storage as well as other storage destinations (ftp, rsync, sftp, local storage...).
 repo: https://github.com/zertrin/duplicity-backup.sh
 tags:
-- backup
-- duplicity
-- cloud
-- storage
+    - backup
+    - duplicity
+    - cloud
+    - storage
 ---
  
 Bash wrapper script for automated backups with duplicity supporting Amazon's S3 online storage as well as other storage destinations (ftp, rsync, sftp, local storage...).

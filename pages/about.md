@@ -16,4 +16,10 @@ Basher was started in 2013 by [Juan Ibiapina](https://github.com/juanibiapina) .
 
 ## Learn Bash
 
-If you're interested in the magnificence that is advanced bash scripting, also check [Awesome Shell](https://github.com/alebcay/awesome-shell)
+If you're interested in the magnificence that is advanced bash scripting, also check:
+
+* [Bash in 27 minutes](https://github.com/pforret/LearnBashQuickly)
+* [learnxinyminutes.com](https://learnxinyminutes.com/docs/bash/)
+* [learnshell.org](https://www.learnshell.org/)
+* [Bash Scripting Tutorial for Beginners](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
+* [Awesome Shell](https://github.com/alebcay/awesome-shell)

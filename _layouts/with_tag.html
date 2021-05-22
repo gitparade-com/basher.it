@@ -2,13 +2,13 @@
 layout: page
 ---
 <h2>Posts with tag: <i>{{page.keyword}}</i></h2>
-{{page.count}} packages
+{{page.count}} package(s)
 <dl>
 {% assign reversed_posts = site.package | sort: published_at | reverse
 %}{% for post in reversed_posts
 %}{% assign post_tags = post.tags | downcase
 %}{% if post_tags contains page.keyword %}
 <dt><a href="{{ post.url }}">{{ post.title }}</a></dt>
-    <dd>{{ post.excerpt | strip_html | truncatewords: 40 }}</dd>
+    <dd>{{ post.excerpt | strip_html | truncatewords: 10 }}</dd>
 </dt>{% endif %}{% endfor %}
 </dl>
