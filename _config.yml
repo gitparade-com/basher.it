@@ -63,17 +63,17 @@ defaults:
     values:
       layout: package
   - scope:
-      path: ""
+      path: "pages"
       type: "pages"
     values:
-      layout: "page"
+      layout: page
   - scope:
-      path: "posts"
+      path: "_posts"
       type: "posts"
     values:
-      layout: "post"
+      layout: post
   - scope:
-      path: "_docs"
-      type: "docs"
+      path: "tag"
+      type: "tags"
     values:
-      layout: "page"
+      layout: with_tag
