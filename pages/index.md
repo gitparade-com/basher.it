@@ -13,7 +13,7 @@ nav: false
 
 > [**basher**](https://github.com/basherpm/basher) helps you quickly install, uninstall and update **bash packages** from the command line, in the same way `composer` does for PHP packages, `npm` for node.js packages, `apt` for Linux tools.
 
-## Easy install of bash packages
+## bash package manager
 
 ```shell
 $ basher install pforret/note
@@ -22,6 +22,12 @@ $ basher install pforret/note
 ```
 
 * Check the [usage](/usage) for details on how to install/uninstall/update packages with `basher`.
+
+## install basher
+```shell
+$ curl -s https://raw.githubusercontent.com/basherpm/basher/master/install.sh | bash
+```
+there's also a step-by-step procedure on [basherpm/basher](https://github.com/basherpm/basher/blob/master/README.md)
 
 ## Directory of basher packages
 
