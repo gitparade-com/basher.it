@@ -4,6 +4,9 @@ title: Wowu/docker-rollout
 description: 🚀 Zero Downtime Deployment for Docker Compose
 repo: https://github.com/Wowu/docker-rollout
 tags:
+    - docker
+    - deployment
+    - zero-downtime
 ---
  
 🚀 Zero Downtime Deployment for Docker Compose

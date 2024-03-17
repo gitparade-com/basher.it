@@ -4,6 +4,9 @@ title: KittyKatt/screenFetch
 description: Fetches system/theme information in terminal for Linux desktop screenshots.
 repo: https://github.com/KittyKatt/screenFetch
 tags:
+    - system
+    - info
+    - screenshot
 ---
 
 screenFetch is a "Bash Screenshot Information Tool". This handy Bash script can be used to generate one of those nifty terminal theme information + ASCII distribution logos you see in everyone's screenshots nowadays. It will auto-detect your distribution and display an ASCII version of that distribution's logo and some valuable information to the right. There are options to specify no ASCII art, colors, taking a screenshot upon displaying info, and even customizing the screenshot command! This script is very easy to add to and can easily be extended.
