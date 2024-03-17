@@ -15,6 +15,9 @@ $ basher uninstall <author>/<package>
 # update a package to the latest version
 $ basher upgrade <author>/<package>
 
+# update all package to the latest version
+$ basher upgrade --all
+
 # list all installed packages
 $ basher list
                      
@@ -29,6 +32,7 @@ $ basher install pforret/note
 Cloning into '$HOME/.basher/cellar/packages/pforret/note'...
 (...)
 
+# the script is immediately available as a new command-line tool
 $ note
 Program: note 1.3.1 by peter@forret.com
 Updated: May  1 18:16:22 2021
