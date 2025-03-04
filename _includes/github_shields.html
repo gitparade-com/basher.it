@@ -1,3 +1,5 @@
+{% if page.title contains "gitlab.com/" %}
+{% else %}
 <table style="padding: 0px; margin: 0px; border: 0px">
     <tr>
         <td>
@@ -20,4 +22,4 @@
         </td>
     </tr>
 </table>
-</table>
+{% endif %}
